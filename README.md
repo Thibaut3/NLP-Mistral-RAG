@@ -29,7 +29,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 1.  Clonez ce référentiel :
 
     ```bash
-    git clone [https://github.com/votre-nom-d'utilisateur/votre-repo.git](https://github.com/votre-nom-d'utilisateur/votre-repo.git)
+    git clone https://github.com/Thibaut3/NLP-Mistral-RAG.git
     cd votre-repo
     ```
 
@@ -39,12 +39,6 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
     python3 -m venv venv
     source venv/bin/activate  # Pour Linux et macOS
     venv\Scripts\activate  # Pour Windows
-    ```
-
-3.  Installez les dépendances :
-
-    ```bash
-    pip install -r requirements.txt
     ```
 
 ## Configuration
@@ -97,8 +91,6 @@ Vous pouvez personnaliser l'application en modifiant les paramètres suivants :
 * `model_name`: Changez le modèle de génération de texte.
 * `template`: Modifiez l'invite pour adapter le comportement du modèle de langage.
 * `search_kwargs`: Ajustez les paramètres de recherche de similarité dans Pinecone.
-
-## Remerciements
 
 * Mistral AI pour le modèle de langage Mistral 7B Instruct v0.3.
 * Pinecone pour la base de données vectorielle.
